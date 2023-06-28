@@ -11,3 +11,7 @@ create table `user`(
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表';
 
 
+INSERT INTO `user`
+(username,password,email,role)
+values
+('admin','admin','admin@email','超级管理员');
